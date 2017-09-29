@@ -34,7 +34,7 @@ MainGame.prototype.loadAssets = function ()
 MainGame.prototype.log = function(message) 
 {
     console.log (message);
-//    this.socket.emit('console', message);
+//  this.socket.emit('console', message);
 };
 
 MainGame.prototype.update = function(dt) 
